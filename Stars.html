@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars</title>
+</head>
+<body>
+    <style>
+
+.header {
+  padding: 130px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+        }
+  
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: medium;
+  }
+
+
+        
+.navbar a.left {
+  float: left;
+  font-weight: bolder;
+
+}
+
+.navbar a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.column {
+  width: 90%;
+  padding: 50px;
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  margin-top: 1ch;
+  margin-left: 1ch;
+  margin-right: 1ch;
+  background-color: #f1f1f1;
+}
+
+.column:hover {
+  background-color: grey;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+  background-color: #f1f1f1;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+</style>
+    
+<div class="navbar">
+  <a href="https://www.britannica.com/art/origami/History-of-origami">History of Origami</a>
+  <a href="https://www.britannica.com/art/origami">What is Origami</a>
+  <a href="ResourceWebII.html" class="left">Org.i</a>
+
+
+
+</div>
+
+
+    <div class="header">
+        <h1>Stars</h1>
+        <hr>
+      </div>
+
+
+    <div class="row">
+      <div class="column" onclick="openTab('b1');">
+        Ninja Star
+      </div>
+
+      <div id="b1" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Ninja Star Origami Steps:</h2>
+        <p>1.<br>2.<br>3.<br>4.<br>5.</p>
+      </div>
+
+      <div class="row">
+        <div class="column" onclick="openTab('b2');">
+          5-Pointed Star
+        </div>
+  
+        <div id="b2" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <h2>5-Pointed Star Origami Steps:</h2>
+          <p>1.<br>2.<br>3.<br>4.<br>5.</p>
+        </div>
+
+        <div class="row">
+          <div class="column" onclick="openTab('b3');">
+            6-Pointed Star
+          </div>
+    
+          <div id="b3" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>6-Pointed Star Origami Steps:</h2>
+            <p>1.<br>2.<br>3.<br>4.<br>5.</p>
+          </div>
+
+      <script>
+        function openTab(tabName) {
+          var i, x;
+          x = document.getElementsByClassName("containerTab");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          document.getElementById(tabName).style.display = "block";
+        }
+        </script>
+    
+    </body>
+</html>
