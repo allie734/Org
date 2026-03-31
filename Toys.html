@@ -4,136 +4,329 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toys</title>
+    <link rel="stylesheet" href="origami.css">
+
 </head>
 <body>
-    <style>
 
-.header {
-  padding: 130px;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-}
-
-.navbar {
-  background-color: white;
-  padding: 10px;
-        }
-  
-.navbar a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: medium;
-  }
-
-
-        
-.navbar a.left {
-  float: left;
-  font-weight: bolder;
-
-}
-
-.navbar a:hover {
-  background-color: grey;
-  color: white;
-}
-
-.column {
-  width: 90%;
-  padding: 50px;
-  text-align: left;
-  font-size: 25px;
-  color: black;
-  margin-top: 1ch;
-  margin-left: 1ch;
-  margin-right: 1ch;
-  background-color: #f1f1f1;
-}
-
-.column:hover {
-  background-color: grey;
-}
-
-.containerTab {
-  padding: 20px;
-  color: white;
-  background-color: #f1f1f1;
-}
-
-.closebtn {
-  float: right;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-
-</style>
-    
 <div class="navbar">
   <a href="https://www.britannica.com/art/origami/History-of-origami">History of Origami</a>
   <a href="https://www.britannica.com/art/origami">What is Origami</a>
-  <a href="ResourceWebII.html" class="left">Org.i</a>
+  <a href="index.html" class="left">Org.i</a>
 
 
 
 </div>
 
+<div class="header">
+  <h1>Toys</h1>
+  <hr>
+</div>
 
-    <div class="header">
-        <h1>Toys</h1>
-        <hr>
-      </div>
+<!-- Paper Fortune Teller -->
+<div class="column" onclick="openTab('b1');">
+  Paper Fortune Teller
+</div>
 
-
-    <div class="row">
-      <div class="column" onclick="openTab('b1');">
-        Balloon
-      </div>
-
-      <div id="b1" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <h2>Balloon Origami Steps:</h2>
-        <p>1.<br>2.<br>3.<br>4.<br>5.</p>
-      </div>
-
-      <div class="row">
-        <div class="column" onclick="openTab('b2');">
-          Windmill
-        </div>
+<div id="b1" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="text-align:center">Paper Fortune Teller Origami Steps</h2>
   
-        <div id="b2" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-          <h2>Windmill Origami Steps:</h2>
-          <p>1.<br>2.<br>3.<br>4.<br>5.</p>
-        </div>
-
-        <div class="row">
-          <div class="column" onclick="openTab('b3');">
-            Samurai Helment
-          </div>
+  <div class="container">
+    <div class="caption-container">
+    </div>
     
-          <div id="b3" class="containerTab" style="display:none;background:rgb(178, 178, 178)">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-            <h2>Samurai Helment Origami Steps:</h2>
-            <p>1.<br>2.<br>3.<br>4.<br>5.</p>
-          </div>
+    <div class="mySlides1">
+      <div class="numbertext">1 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-1-2048x2048.png" alt="Step">
+    </div>
 
-      <script>
-        function openTab(tabName) {
-          var i, x;
-          x = document.getElementsByClassName("containerTab");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          document.getElementById(tabName).style.display = "block";
-        }
-        </script>
-    
-    </body>
+    <div class="mySlides1">
+      <div class="numbertext">2 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-2-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">3 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-3-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">4 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-4-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">5 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-5-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">6 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-6-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">7 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-7-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">8 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-8-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">9 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-9-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">10 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-10-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">11 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-step-11-2048x2048.png" alt="Step">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">12 / 12</div>
+      <img class="demo" src="Images/Toys/Paper Fortune Teller/origami-fortune-teller-diagram-completed-1024x1024.png" alt="Step">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
+    <a class="next" onclick="plusSlides(1, 0)">❯</a>
+
+    <p style="text-align:center" id="caption1"></p>
+
+
+  </div>
+  
+</div>
+
+<!-- Boat -->
+<div class="column" onclick="openTab('b2');">
+  Boat
+</div>
+
+    <div id="b2" class="containerTab">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <h2 style="text-align:center">Boat Origami Steps</h2>
+  
+    <div class="container">
+      <div class="caption-container">
+      </div>
+      
+    <div class="mySlides2">
+        <div class="numbertext">1 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-1.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">2 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-2.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">3 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-3.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">4 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-4.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">5 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-5.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">6 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-6.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">7 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-7.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">8 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-8.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">9 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-9.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">10 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-10.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">11 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-11.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">12 / 12</div>
+        <img class="demo" src="Images/Toys/Boat/Traditional-Origami-Boat-Diagram-step-12.jpg" alt="Step">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 1)">❮</a>
+      <a class="next" onclick="plusSlides(1, 1)">❯</a>
+  
+      <p style="text-align:center" id="caption2"></p>
+  
+  
+    </div>
+  
+
+  
+</div>
+
+<!-- Turtle -->
+<div class="column" onclick="openTab('b3');">
+  Fan
+</div>
+
+  
+
+    <div id="b3" class="containerTab">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <h2 style="text-align:center">Fan Origami Steps</h2>
+  
+    <div class="container">
+      <div class="caption-container">
+      </div>
+      
+    <div class="mySlides3">
+        <div class="numbertext">1 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-1.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">2 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-2.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">3 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-3.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">4 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-4.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">5 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-5.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">6 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-6.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">7 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-7.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">8 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-8.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">9 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-9.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">10 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-10.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">11 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-step-11.jpg" alt="Step">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">12 / 12</div>
+        <img class="demo" src="Images/Toys/Fan/origami-fan-diagram-completed.jpg" alt="Step">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 2)">❮</a>
+      <a class="next" onclick="plusSlides(1, 2)">❯</a>
+  
+      <p style="text-align:center" id="caption3"></p>
+  
+  
+    </div>
+
+
+<script>
+
+let slideIndex = [1, 1, 1]; 
+let slideId = ["mySlides1", "mySlides2", "mySlides3"];
+let captionId = ["caption1", "caption2", "caption3"]; 
+
+
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function openTab(tabName) {
+  let i;
+  let x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  let captionText = document.getElementById(captionId[no]);
+
+  
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+
+  if (captionText) {
+    captionText.innerHTML = x[slideIndex[no]-1].querySelector('img').alt;
+  }
+}
+
+
+</script>
+
+</body>
 </html>
+
+
+
+
+
+
