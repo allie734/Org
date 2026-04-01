@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  background-color: white;
+  background-color: lightgrey;
   padding: 10px;
 }
   
@@ -76,7 +76,6 @@
     text-align: center;
   }
   
-  /* 버튼 (Crane / Bear / Cat) */
   .column {
     width: 90%;
     padding: 50px;
@@ -93,7 +92,6 @@
     color: white;
   }
   
-  /* 탭 */
   .containerTab {
     display: none;
     padding: 20px;
@@ -101,7 +99,6 @@
     border-radius: 10px;
   }
   
-  /* 닫기 버튼 */
   .closebtn {
     float: right;
     font-size: 35px;
@@ -109,14 +106,12 @@
     color: black;
   }
   
-  /* 슬라이드 컨테이너 (핵심: 크기 줄이기) */
   .container {
     position: relative;
     max-width: 500px;
     margin: auto;
   }
   
-  /* 슬라이드 */
   .mySlides {
     display: none;
   }
