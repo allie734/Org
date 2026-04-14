@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+      padding: 50px;
+      font-size: 150%;
+      text-align: center;
+      color: black;
+      font-family: "Didot";
+    }
+  
+  .header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+  }
+  
+  .body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  .navbar {
+      background-color: white;
+      overflow: hidden;
+    }
+      
+    .navbar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: medium;
+    }
+    
+    .navbar-right{
+      float: right;
+    }
+    
+    .navbar-left {
+      font-weight: bolder;
+    }
+    
+      
+    .navbar a:hover {
+      background-color: grey;
+      color: white;
+    }
+      
+  
+  
+  .main {
+    max-width: 800px;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    text-align: justify;
+  }
+  
+  
+  img {
+      display: block;
+      margin: auto;
+      width: auto;
+      padding: 20px;
+    }
+  
