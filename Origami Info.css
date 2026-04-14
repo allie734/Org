@@ -70,4 +70,13 @@
       width: auto;
       padding: 20px;
     }
+
+    @media screen and (max-width:600px){
+      .navbar a{
+        font-size: 0.7rem;
+        padding: 0.5rem 0.5rem;
+    
+      }
+      
+    }
   
