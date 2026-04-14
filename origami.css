@@ -1,9 +1,11 @@
 .header {
-  padding: 130px;
-  font-family:'Times New Roman', Times, serif;
+  padding: 100px;
+  width: 100%;
   font-size: 150%;
   text-align: center;
   color: black;
+  font-family:'Times New Roman', Times, serif;
+
 }
         
 .header1 {
