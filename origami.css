@@ -1,5 +1,6 @@
 .header {
-  padding: 100px;
+  padding: 130px;
+  font-family:'Times New Roman', Times, serif;
   font-size: 150%;
   text-align: center;
   color: black;
@@ -35,7 +36,15 @@
   background-color: grey;
   color: white;
 }
-        
+       
+
+.demo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -69,11 +78,7 @@
     box-sizing: border-box;
   }
   
-  .header {
-    padding: 130px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-  }
+
   
   .column {
     width: 90%;
