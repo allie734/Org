@@ -18,23 +18,25 @@
   
   .navbar {
     background-color: white;
-    padding: 10px;
+    overflow:hidden;
   }
-    
+
   .navbar a {
-    float: right;
-    display: block;
+    float: left;
     color: black;
     text-align: center;
+    display: block;
     padding: 14px 20px;
     text-decoration: none;
     font-size: medium;
     font-family: "Georgia";
-
   }
 
-  .navbar a.left {
-    float: left;
+  .navbar-right{
+    float: right;
+  }
+
+  .navbar-left {
     font-weight: bolder;
   }
 
