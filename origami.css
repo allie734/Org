@@ -8,9 +8,9 @@
 
 }
         
-.header1 {
-  padding: 300px;
-  background: grey;
+.header h1 {
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .navbar {
