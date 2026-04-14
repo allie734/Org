@@ -107,6 +107,7 @@
   
   .container {
     position: relative;
+    width: 90%;
     max-width: 500px;
     margin: auto;
   }
@@ -117,12 +118,13 @@
   
   .mySlides img {
     width: 100%;
+    height: auto;
+    display: block;
     max-height: 300px;
     object-fit: contain;
     border-radius: 10px;
   }
   
-
   .prev,
   .next {
     cursor: pointer;
@@ -160,5 +162,4 @@
     border-radius: 5px;
     margin-top: 10px;
   }
-  
   
