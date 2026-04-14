@@ -9,6 +9,7 @@
     color: black;
     font-family: "Didot";
   }
+  
           
   .header1 {
     padding: 300px;
@@ -31,13 +32,12 @@
     font-family: "Georgia";
 
   }
-  
-  
+
   .navbar a.left {
     float: left;
     font-weight: bolder;
   }
-  
+
     
   .navbar a:hover {
     background-color: grey;
@@ -48,34 +48,30 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-
+    justify-content: center;
   }
   
   .gallery-item {
-    margin: 5px;
+    margin: 10px;
     width: calc(25% - 20px);
     border-radius: 25px;
-    
-
   }
-  
   
   .gallery-item img {
-    width: 90%;
+    width: 80%;
+    display:block; 
     height: auto;
+    margin: 0 auto;
     border-radius: 30px;
   }
-
-
+  
   .gallery-item img:hover {
     transition: .5s ease;
     border-radius: 85px 30px;
-        border: 3px solid grey
+    border: 3px solid grey
 
   }
 
-  
   .gallery-item div.desc {
     color:black;
     font-size: 20px;
@@ -90,7 +86,6 @@ footer {
   text-align: center;
   background: white;
 }
-
 
   @media only screen and (max-width: 768px) {
     div.gallery-item {
