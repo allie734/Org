@@ -13,11 +13,11 @@
 
 .navbar {
   background-color: white;
-  padding: 10px;
+  overflow: hidden;
 }
   
 .navbar a {
-  float: right;
+  float: left;
   display: block;
   color: black;
   text-align: center;
@@ -26,8 +26,16 @@
   font-size: medium;
 }
 
-.navbar a.left {
-  float: left;
+ 
+
+
+
+
+.navbar-right{
+  float: right;
+}
+
+.navbar-left {
   font-weight: bolder;
 }
 
