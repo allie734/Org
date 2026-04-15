@@ -96,7 +96,7 @@
   }
   
   .column:hover {
-    background-color: grey;
+    background-color: rgb(91, 135, 163);
     color: white;
   }
   
