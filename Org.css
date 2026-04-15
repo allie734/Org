@@ -10,11 +10,6 @@
     font-family: "Didot";
   }
   
-          
-  .header1 {
-    padding: 300px;
-    background: grey;
-  }
   
   .navbar {
     background-color: white;
@@ -82,11 +77,45 @@
 
   }
 
-footer {
-  padding: 10px;
-  text-align: center;
-  background: white;
+
+
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  color: black;
+  display: flex;
 }
+
+.footer a{
+  display: block;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.p{
+  display: block;
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+
+.footer div{
+  text-align: center;
+}
+
+.footer-2{
+  flex-grow: 2;
+}
+
+.footer div h5{
+  font-weight: 900;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
 
   @media only screen and (max-width: 768px) {
     div.gallery-item {
